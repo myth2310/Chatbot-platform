@@ -1,0 +1,223 @@
+{"intents": [
+                {"tag": "notfound",
+                "patterns": ["", "", "", "", ""],
+                "responses": ["Maaf tidak tahu","saya tidak tahu","kata diluar kemampuan kami","kami tidak tahu, mungkin anda bisa menanyakan mengenai seputar SMK YPE NUSANTARA SLAWI", "mungkin anda bisa menanyakan mengenai aplikasi ini"],
+                "context": [""]
+            },
+            {"tag": "salam",
+                "patterns": ["Hay", "Hy", "Hallo","Hey","Hola", "Hello", "Hai","p","hai","halo","hay","hai","mikum","assamualaikaum","hi"],
+                "responses": ["Halo, terima kasih sudah menyapa", "Hallo, senang bertemu denganmu, ada yang bisa saya lakukan?", "Hai, ada yang bisa saya bantu?"], 
+                "context": [""]
+            },
+            {"tag": "selamat tinggal",
+                "patterns": ["Sampai jumpa", "dadah", "Selamat tinggal", "Senang mengobrol denganmu, selamat tinggal", "Sampai nanti","dah"], 
+                "responses": ["Sampai jumpa!", "Semoga harimu menyenangkan", "Bye! Segera kembali lagi."], 
+                "context": [""]
+            },
+            {"tag": "terima kasih",
+                "patterns": ["Terima kasih", "Thanks","Thank you", "Itu membantu", "Luar biasa, terima kasih", "Terima kasih telah membantu saya","Ok, terima kasih","makasih","terimakasih","thq"], 
+                "responses": ["Yupp!! Senang membantu!", "Yap ^-^ Setiap saat!", "Dengan senang hati"],
+                "context": [""]
+            },
+            {"tag": "tidak bertanya",
+                "patterns": [],
+                "responses": ["Maaf, tidak dapat memahami Anda", "Tolong beri saya info lebih lanjut", "Tidak yakin saya mengerti"],
+                "context": [""]
+            },
+            {"tag": "ok",
+            "patterns": ["ok","baiklah","oke","ya"],
+            "responses": ["oke","baik ^-^","baiklah ^-^"],
+            "context": [""]
+            },
+             {"tag": "sekolah",
+              "patterns": ["ini aplikasi apa?","ini apa","aplikasi apa","aplikasi berfungsi untuk apa","fungsi aplikasi"],
+              "responses": ["Ini merupakan aplikasi question answer yang dapat menjawab pertanyaan secara otomatis yang berkaitan dengan SMK YPE NUSANTARA SLAWI"]
+             },
+             {"tag": "profil",
+              "patterns": ["Profil sekolah?","profil","profil smk ype nusantara slawi","profil smk ype"],
+              "responses": ["SMK YPE Nusantara Slawi merupakan salah satu Lembaga Pendidikan Menengah Kejuruan di Kabupaten Tegal yang berdiri pada 1 Januari 1972 dengan Kantor Pusat Yayasan Pendidikan Ekonomi (YPE) ada di Semarang.Beralamat di Jalan MT Haryono Kalisapu Slawi Kabupaten Tegal. Sekolah ini merupakan sekolah swasta jurusan bisnis dan manajemen yang pertama di Kabupaten Tegal dan sudah terakreditasi oleh BAN lalu memiliki standar ISO:2008 dalam sistem manajemen."]
+             },
+              {"tag": "tahun",
+              "patterns": [ "Kapan tahun berdiri?","Pada tahun berapa?","tahun berdiri","berdiri","kapan berdirinya smk ype nusantara slawi","berdirinya smk ype nusantara"],
+              "responses": ["Kamu tahu gak sih bahwa SMK YPE Nusantara Slawi berdiri pada 1 Januari 1972 "]
+             },
+              {"tag": "akreditasi",
+              "patterns": [ "Apa akreditasi nya?", "Akreditasi nya adalah?", "Sudah terakreditasi?","akreditasi smk ype nusantara slawi","akreditasi smk ype","akreditasi smk","akreditasi"],
+              "responses": ["SMK YPE Nusantara Slawimemiliki Akreditasi B"]
+             },
+             {"tag": "alamat",
+              "patterns": ["di mana alamat nya?","alamat","alamat smk ype nusantara slawi","alamat smk ype","alamat smk"],
+              "responses": ["SMK YPE Nusantara Slawi beralamat di Jln. Letjen M.T. Haryono Kalisapu Slawi."]
+             },
+             {"tag": "kepala",
+              "patterns": ["Siapa kepala sekolah nya?","Nama kepala sekolah nya adalah?","kepala sekolah","kepsek","kepala sekolah smk ype nusantara slawi","kepsek smk ype"],
+              "responses": ["Kepala sekolah SMK YPE Nusantara Slawi adalah Bapak Wahyu Wahyu Handoko,SE"]
+             },
+             {"tag": "keunggulan",
+              "patterns": ["Apa saja keunggulan?","Ada berapa keunggulan nya?","keunggulan smk ype nusantara slawi","keunggulan",""],
+              "responses": ["Pelopor SMK Swasta pertama dan terpercaya di Kab.Tegal, Berdiri tahun 1972 dan sudah terAkreditasi BAS-SM, Biaya murah dan terjangkau, Tempat strategis, asri, bangunan baru dan lingkungan mudah dijangkau, Fasilitas lengkap, Menerapkan program revitalisasi SMK yang bekerjasama dengan DU/DI, Tempat PKL di beberapa instansi negeri maupun swasta ternama di Kab.Tegal, Mengupayakan penyaluran lulusan melalui BKK, Sudah menghasilkan ribuan alumni yang bekerja di dalam maupun luar negeri."]
+             },
+             {"tag": "visi",
+              "patterns": ["Apa visi prodi akutansi?","visi prodi akuntansi","visi","visi prodi","visi akuntansi"],
+              "responses": ["Menjadi Program Studi Unggul dan terkemuka di Indonesia untuk menghasilkan tenaga profesional dibidang Akuntansi Keuangan, Akuntansi Manajemen, Akuntansi Pajak,  Pemeriksaan Akuntan dan Sistem Informasi Akuntansi yang memenuhi kebutuhan industri dan masyarakat dalam persaingan global pada tahun 2024."]
+             },
+		 {"tag": "misi",
+              "patterns": ["Apa misi prodi akuntansi?","misi prodi akutansi","misi akuntansi","misi prodi","misi"],
+              "responses": ["Melaksanakan proses belajar mengajar yang memadukan teori dan aplikasi dibidang Akuntansi Keuangan, Akuntansi Manajemen, Pemeriksaan Akuntan, Akuntansi Pajak, dan Sistem Informasi akuntansi., Menerapkan manajemen pendidikan tinggi yang efektif dan efisien., Melakukan pengkajian, pelatihan akuntansi, sesuai Tri Dharma Perguruan Tinggi dan mengembangkan jaringan kerjasama dengan industri dan kemitraan yang berkelanjutan sebagai respon perubahan arus daya saing global., Pengembangan karakter siswa berjiwa kewirausahaan dan memiliki etika profesional yang dapat memberikan kontribusi positif terhadap peningkatan kualitas hidup."]
+             },
+              {"tag": "prospek",
+              "patterns": [ "Prospek lulusan prodi akuntansi?","prospek akuntansi","prospek","prospek lulusan"],
+              "responses": ["Lulusan Akuntansi bisa bekerja sebagai Staf Akuntansi (Perusahaan), Staf Akuntansi (Keuangan diinstansi pemerintah), Staf Akuntansi Internal Auditor, Kasir toko/swalayan, Customer Service, Kasir Bank, Staf Perpajakan, Staf Administrasi dan Wirausaha.Selain itu, lulusan Akutansi juga dapat bekerja diperusahaan baik didalam maupun luar negeri karena BKK SMK YPE Nusantara Slawi sudah bekerja sama dengan perusahaan tersebut. Sehingga lulusan SMK YPE Nusantara Slawi dijamin bisa langsung kerja diperusahaan tersebut."]
+             },
+              {"tag": "perusahaan",
+              "patterns": [ "Perusahaan dalam negeri yang sudah bekerja sama?","kerjasama","kerja sama","perusahaan","kerjasama sekolah"],
+              "responses": ["PT.INDONESIA EPSON INDUSTRY (CIKARANG) , PT.KIYOKUNI (CIKARANG) , PT.SANOH (CIKARANG), PT.DENSO INDONESIA (CIKARANG), PT.MUSASHI AUTO PART INDONESIA (CIKARANG), PT.HITACHI (KARAWANG), PT.YAMAHA INDONESIA (PULAU GADUNG) , PT.HPM (HONDA PROSPECT MOTOR) (KARAWANG), PT.NIFCO INDONESIA (KARAWANG), PT.YASUNLI (MM 2100 CIBITUNG), PT.LG IGNOTEC (MM 2100 CIBITUNG) , SOLARIA RESTORAN (JABODETABEK), PT.NIDEC SANKYO (BEKASI) , PT.SAS (SINAR ALUM SARANA) (TANGGERANG), PT.OPPO MANUFACTURINNG (TANGGERANG), PT.LINKFORTUNE(KENDAL), Dan masih banyak lagi"]
+             },
+             {"tag": "perusahaan",
+              "patterns": ["Perusahaan luar negeri yang sudah bekerja sama?","kerjasama perusahaan luar"],
+              "responses": ["KILANG SAMSUNG ELECTRONIC (KILANG SELANGOR MALAYSIA), KILANG INTECH SAIKO (TEBRAU JOHOR MALAYSIA), KILANG AMPHENOL (MERTAJAM PENANG MALAYSIA), KAMAYA ELECTRIC (IPOH, PERAK MALAYSIA), KILANG TOP GLOVE (KILANG SELANGOR MALAYSIA), KILANG INFENEON (BATU BERENDAM MALAKA MALAYSIA), KILANG NXP SEMI KONDUKTOR (PETALING JAYA SELANGOR MALAYSIA), KILANG VENTUR (TEBRAU JOHOR MALAYSIA)."]
+             },
+             {"tag": "akuntansi",
+              "patterns": ["Apa keunggulan prodi akuntansi dibanding prodi lainnya?","keunggulan prodi akuntansi","keunggulan akuntansi"],
+              "responses": ["SMK YPE Nusantara Slawi jurusan Akuntansi mempunyai tempat praktek disekolahan yaitu Lab Perbankan yang setiap hari buka untuk melayani simpan pinjam siswa dan guru. Semua petugas dari siswa khususnya kelas 2 yang langsung dibimbing oleh guru Akuntansi dan dari pihak Bank BPR. Bank yang dikelola sekolah sudah bekerjasama dengan BPR. Setiap kegiatan PRAKERIN (Praktek Kerja Industri), siswa SMK YPE Nusantara Slawi jurusan Akuntansi ditempatkan dilembaga keuangan dan kami sudah MOU dengan mereka. Lembaga Keuangan tersebut antara lain Bank BPR Sahabat Tata, BKK, BMT dan Lembaga Keuangan Lainnya."]
+             },
+             {"tag": "kegiatan",
+              "patterns": ["Kegiatan apa saja yang ada di SMK YPE?", "ekstra apa saja yang ada?","ektrakulikuler","ektra kuler","ektrakuler","estrakulikuler","kegiatan sekolah","eskul"],
+              "responses": ["Pramuka, Paskibra, PKS, Rohis, PMR, Bola Voly, Basket, Karate."]
+             },
+             {"tag": "alumni",
+              "patterns": ["siapa saja alumni yang telah sukses?", "Beberapa alumni yang sudah berhasil?","prospek alumni","alumni","prospek alumni"],
+              "responses": ["Muhammad Samsul Khaeri lulusan tahun 1998 sebagai Dosen di STAI Bani Saleh Bekasi, Wasis Surono sebagai pengurus pondok pesantren di Yomani dan sebagai kepala sekolah SD I di Yomani lulusan tahun 1990, Widodo lulusan tahun 1991 bekerja di bank BNI 46 Bekasi, Ulun Fitria alumni tahun 1998 bekerja di Pemda Tangerang Perencanaan Keuangan."]
+             },
+             {"tag": "Prodi",
+              "patterns": ["jurusan di smk ype nusantara slawi", "prodi dismk ype","jurusan","prodi","program keahlian smk ype","program keahlian"],
+              "responses": ["Di SMK YPE Nusantara Slawi saat ini memiliki 4 program keahlian yaitu ada Multimedia(Komputer) , Akuntansi dan Lembaga Keuangan(AKL) , Otomatisasi dan Tata Kelola Perkantoran (OTKP) , dan Bisnis Daring dan Pemasaran (BDP)  "]
+             },
+             {"tag": "Fasilitas",
+              "patterns": ["Fasilitas smk ype nusantara slawi", "Fasilitas smk ype","fasilitas"],
+              "responses": ["SMK YPE Nusantara Slawi saat ini memiliki fasilitas 28 kelas ruang belajar teori dan 1 lapangan basket "]
+             },
+             {"tag": "Guru Produktif Perkantoran",
+              "patterns": ["siapa guru Produktif perkantoran", "guru Produktif perkantoran"],
+              "responses": ["Guru pengampu mata pelajaran Produktif Perkantoran yaitu ada Dra. Sri Rejeki, Supriyanti, S.Pd, Sulistowati, S.Pd, dan Novia Umiati, S.Pd"]
+             },
+             {"tag": "Guru Akuntansi",
+              "patterns": ["siapa guru akuntansi", "guru akuntansi","siapa guru pelajaran akuntansi","guru pelajaran akuntansi"],
+              "responses": ["Guru pengampu mata pelajaran Akuntansi adalah ada Drs. Nursoleh, Winarti, S.Pd , Sudarmanto, S.Pd , Arimul Arifatul A, S.Pd , dan Nurhidayati, S.Pd."]
+             },
+             {"tag": "Ka Prodi Akuntansi",
+              "patterns": ["siapa ka prodi akutansi", "kepala prodi akuntansi","ka prodi akutansi","siapa kepala prodi akuntansi"],
+              "responses": ["Kepala Prodi Akuntansi saat ini dijabat oleh Ibu Nurhidayati, S.Pd."]
+             },
+             {"tag": "Ka Prodi Adm Perkantoran",
+              "patterns": ["siapa ka prodi adm perkantoran", "kepala prodi adm perkantoran","ka prodi adm perkantoran","siapa kepala prodi adm perkantoran","kepala prodi administrasi perkantoran","ka prodi administrasi perkantoran","siapa kepala prodi administrasi perkantoran"],
+              "responses": ["Kepala Prodi Administrasi Perkantoran saat ini dijabat oleh Ibu Dra. Sri Rejeki"]
+             },
+             {"tag": "Ka Prodi Penjualan",
+              "patterns": ["siapa ka prodi penjualan", "kepala prodi penjualan","ka prodi penjualan","siapa kepala prodi penjualan"],
+              "responses": ["Kepala Prodi Penjualan saat ini dijabat oleh Bapak Agus Imam Santoso, S.Pd"]
+             },         
+             {"tag": "Waka Kurikulum",
+              "patterns": ["siapa waka kurikulum", "waka kurikulum smk ype nusantara slawi","waka kurikulum","wakil kepala kurikulum smk ype nusantara"],
+              "responses": ["Wakil Kepala Kurikulum SMK YPE Nusantara Slawi saat ini dijabat oleh Bapak Drs.Joko Santoso"]
+             },
+             {"tag": "Waka Kesiswaan",
+              "patterns": ["siapa waka Kesiswaan", "waka kesiswaan smk ype nusantara slawi","waka kesiswaan","wakil kepala kesiswaan smk ype nusantara"],
+              "responses": ["Wakil Kepala Kesiswaan SMK YPE Nusantara Slawi saat ini dijabat oleh Bapak Drs. Tri nugroho"]
+             },
+             {"tag": "Waka Humas",
+              "patterns": ["siapa waka humas", "waka humas smk ype nusantara slawi","waka humas","wakil kepala humas smk ype nusantara"],
+              "responses": ["Wakil Kepala Humas SMK YPE Nusantara Slawi saat ini dijabat oleh Bapak Drs. Nursoleh"]
+             },     
+             {"tag": "Bendahara Yayasan",
+              "patterns": ["siapa bendahara yayasan", "bendahara yayasan smk ype nusantara slawi","bendahara yayasan","bendahara yayasan smk ype nusantara"],
+              "responses": ["Bendahara Yayasan SMK YPE Nusantara Slawi saat ini dijabat oleh Bapak Sis Gunawan, S.Pd"]
+             },           
+             {"tag": "Ketua BKK",
+              "patterns": ["siapa ketua bkk", "ketua bkk smk ype nusantara slawi","ketua bkk","ketua bkk humas smk ype nusantara"],
+              "responses": ["Ketua BKK SMK YPE Nusantara Slawi saat ini dijabat oleh Bapak NurHidayat JM, S.Ag"]
+             },
+             {"tag": "Pelajaran Akuntansi",
+              "patterns": ["apa yang dipelajari di prodi akuntansi","apa yang dipelajari di jurusan akuntansi", "pelajaran di akuntansi","pelajaran akuntansi","apa pelajaran di akuntansi"],
+              "responses": ["Jurusan Akuntansi ini siswa akan belajar tentang pengelolaan administrasi khususnya pada bidang keuangan. Nantinya siswa akan belajar tentang Etika Profesi, Aplikasi Pengolahan Angka, Akuntansi Dasar, Perbankan Dasar, Praktikum Akuntansi Perusahaan Jasa, Dagang dan Manufaktur , Praktikum Akuntansi Lembaga/Instansi Pemerintah, Akuntansi Keuangan, Komputer Akuntansi, Administrasi Pajak dan Produk Kreatif Dan Kewirausahaan"]
+             },
+             {"tag": "Apa Itu Akuntansi",
+              "patterns": ["apa itu akuntansi","akuntansi itu apa","pengertian akuntansi"],
+              "responses": ["Akuntansi adalah proses pencatatan transaksi keuangan yang berkaitan dengan bisnis. Proses akuntansi adalah mencakup meringkas, menganalisis, dan melaporkan transaksi bisnis kepada lembaga pengawas, regulator, dan entitas pemungut pajak"]
+             },
+             {"tag": "Manfaat Akuntansi",
+              "patterns": ["apa manfaat adanya akuntansi","manfaat akuntansi","manfaat adanya akuntansi","apa manfaat akuntansi"],
+              "responses": ["Melindungi properti dan aset, Menyampaikan hasil, Keperluan legal, Klasifikasi data, Merangkum data, dan Menganalisa dan meramalkan keadaan"]
+             },
+             {"tag": "Mata Pelajaran Etika Profesi ",
+              "patterns": ["apa yang dipelajari pada mata pelajaran etika profesi","pelajaran etika profesi","pelajaran etika profesi adalah"],
+              "responses": ["Mata pelajaran Etika Profesi akan membahas materi-materi yang menyangkut bagaimana kode etik dan hal-hal lainnya yang berkaitan dengan profesi sebagai akuntan"]
+             },
+             {"tag": "Mata Pelajaran Aplikasi Pengolah Angka ",
+              "patterns": ["apa yang dipelajari pada mata pelajaran aplikasi pengolah angka","pelajaran aplikasi pengolah angka","pelajaran aplikasi pengolah angka adalah" ],
+              "responses": ["Mata pelajaran aplikasi pengolah angka pada mata pelajaran ini siswa akan mempelajari aplikasi pengolah angka yang dapat digunakan untuk mempermudah proses kerja akuntansi."]
+             },
+             {"tag": "Mata Pelajaran Akuntansi Dasar ",
+              "patterns": ["apa yang dipelajari pada mata pelajaran akuntansi dasar","pelajaran akuntansi dasar","pelajaran akuntansi dasar adalah"],
+              "responses": ["Mata pelajaran akuntansi dasar ini akan membahas dasar-dasar ilmu akuntansi, seperti konsep debit-kredit, neraca keuangan, atau menyajikan laporan keuangan."]
+             },
+             {"tag": "Mata Pelajaran Perbankan Dasar ",
+              "patterns": ["apa yang dipelajari pada mata pelajaran perbankan dasar","pelajaran perbankan dasar","pelajaran perbankan dasar adalah"],
+              "responses": ["Materi dasar-dasar perbankan yang akan diajarkan antara lain adalah sejarah uang, sejarah bank, fungsi bank, serta sistem operasional lembaga perbankan."]
+             },           
+             {"tag": "Mata Pelajaran Praktikum Akuntansi Perusahaan Jasa, Dagang dan Manufaktur ",
+              "patterns": ["apa yang dipelajari pada praktikum akuntansi perusahaan jasa","pelajaran perbankan dasar","praktikum akuntansi perusahaan jasa adalah"],
+              "responses": ["Pada Praktikum Akuntansi Perusahaan Jasa, Dagang dan Manufaktur ini materi yang dipelajari adalah mengenai buku besar dan kegunaannya, menentukan debet dan kredit, melakukan posting (pemindahan) entri jurnal ke buku besar hingga menyajikan hasil posting entri jurnal ke dalam buku besar"]
+             },
+             {"tag": "Mata Pelajaran Praktikum Akuntansi Lembaga/Instansi Pemerintah ",
+              "patterns": ["apa yang dipelajari pada praktikum akuntansi lembaga/instansi pemerintah","praktikum akuntansi lembaga/instansi pemerintah","praktikum akuntansi lembaga/instansi pemerintah jasa adalah"],
+              "responses": ["Praktikum Akuntansi Lembaga/Instansi Pemerintah ini akan membahas mengenai pengelolaan keuangan desa, perencanaan dan penganggaran keuangan desa, hingga mengolah perpajakan pada lembaga desa."]
+             },
+             {"tag": "Mata Pelajaran Akuntansi Keuangan",
+              "patterns": ["apa yang dipelajari pada pelajaran akuntansi keuangan","pelajaran akuntansi keuangan","pelajaran akuntansi keuangan adalah"],
+              "responses": ["Akuntansi Keuangan akan membahas tentang penyajian laporan keuangan kepada pihak luar berupa laporan neraca, rugi laba, perubahan modal dan arus kas kepada pemegang saham, kreditor, supplier dan pemerintah khususnya tentang profitabilitas dan kredibilitas perusahaan."]
+             },
+             {"tag": "Mata Pelajaran Komputer Akuntansi",
+              "patterns": ["apa yang dipelajari pada pelajaran komputer akuntansi","pelajaran komputer akuntansi","pelajaran komputer akuntansi adalah"],
+              "responses": ["Mata pelajaran komputer akuntansi akan membahas mengenai sistem akuntansi yang menggunakan teknologi komputer untuk menjalankan berbagai aplikasi-aplikasi yang dibutuhkan untuk melakukan proses pengelolaan keuangan."]
+             },
+             {"tag": "Mata Pelajaran Administrasi Pajak",
+              "patterns": ["apa yang dipelajari pada pelajaran administrasi pajak","pelajaran administrasi pajak","pelajaran administrasi pajak adalah"],
+              "responses": ["Dalam mata pelajaran administrasi pajak, siswa akan mempelajari hal-hal yang berkaitan dengan perpajakan. Misalnya pengertian pajak, fungsi pajak, kedudukan pajak, jenis-jenis pajak, tata cara pemungutan pajak, dan hal-hal lainnya yang berkaitan dengan pajak."]
+             },
+             {"tag": "Mata Pelajaran Produk Kreatif Dan Kewirausahaan",
+              "patterns": ["apa yang dipelajari pada pelajaran produk kreatif dan kewirausahaan","pelajaran produk kreatif dan kewirausahaan","pelajaran produk kreatif dan kewirausahaan adalah"],
+              "responses": ["Pada mata pelajaran ini siswa akan mempelajari ilmu mengenai kewirausahaan dan akan diperkenalkan dengan berbagai produk kreatif yang bisa menjadi peluang wirausaha."]
+             },
+             {"tag": "Apa itu akuntan",
+              "patterns": ["apa itu akuntan","akuntan adalah","akuntan itu apa"],
+              "responses": ["Secara harafiah dan legalitas akuntan diartikan sebagai sebutan dan gelar profesional yang diberikan kepada seorang sarjana yang telah menempuh pendidikan ekonomi jurusan akuntansi pada suatu universitas atau perguruan tinggi dan telah lulus Pendidikan Profesi Akuntansi (PPAk)"]
+             },
+             {"tag": "Janis profesi akuntansi",
+              "patterns": ["jenis-jenis profesi akuntansi","jenis profesi akuntansi","profesi akuntan"],
+              "responses": ["Akuntan Perusahaan, Akuntan Publik, Akuntan Pendidik, dan Akuntan Pemerintah"]
+             },
+             {"tag": "tugas akuntan perusahaan",
+              "patterns": ["tugas-tugas akuntan perusahaan","tugas akuntan perusahaan","akuntan perusahaan"],
+              "responses": ["Akuntan perusahaan tugasnya adalah menyusun sistem akuntansi, menyusun anggaran, meng-handle masalah perpajakan, melakukan audit internal hingga menyusun laporan keuangan baik dilakuan secara manual atau menggunakan aplikasi yang nantinya laporan keuangan tersebut akan digunakan untuk audit eksternal."]
+             },
+             {"tag": "tugas akuntan public",
+              "patterns": ["tugas-tugas akuntan public","tugas akuntan public","akuntan public"],
+              "responses": ["Akuntan public tugasnya adalah melakukan audit (pemeriksaan ), menyediakan jasa perpajakan hingga memberikan konsultasi manajemen"]
+             },
+             {"tag": "tugas akuntan pendidik",
+              "patterns": ["tugas-tugas akuntan pendidik","tugas akuntan pendidik","akuntan pendidik"],
+              "responses": ["Sesuai dengan namanya, akuntan pendidik ini bertugas di ranah pendidikan. Memiliki lingkup tugas seperti melakukan penelitian dan pengembangan akuntansi, mengajar di institusi pendidikan hingga menyusun kurikulum pendidikan akuntansi yang digunakan di perguruan tinggi"]
+             },
+             {"tag": "tugas akuntan pemerintah",
+              "patterns": ["tugas-tugas akuntan pemerintah","tugas akuntan pemerintah","akuntan pemerintah"],
+              "responses": ["Akuntan pemerintah ini bekerja di lembaga pemerintahan. Beberapa contoh lembaga pemerintahan yang memiliki profesi ini di dalamnya adalah BPK (Badan Pemeriksaan Keuangan) dan BPKP (Badan Pengawasan Keuangan dan Pembangunan). Pemerintah mempunyai standar akuntansi yang berlaku khusus untuk pembukuan pemerintahan."]
+             },
+             {"tag": "skill yang dibutuhkan akuntan",
+              "patterns": ["skill yang dibutuhkan akuntan","skill akuntan","skill yang dibutukan akuntan"],
+              "responses": ["Analisis, komunikasi, ketelitian, teknologi, bisnis, kreativitas, berpikir kritis, organisasi, manajemen waktu dan active learning"]
+             }
+            
+
+
+]}
